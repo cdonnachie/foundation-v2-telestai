@@ -16,11 +16,11 @@ const Transactions = function(config, rpcData) {
       public: Buffer.from('0488B21E', 'hex').readUInt32LE(0),
       private: Buffer.from('0488ADE4', 'hex').readUInt32LE(0),
     },
-    peerMagic: '4d455743',
-    pubKeyHash: Buffer.from('32', 'hex').readUInt8(0),
-    scriptHash: Buffer.from('7A', 'hex').readUInt8(0),
-    wif: Buffer.from('70', 'hex').readUInt8(0),
-    coin: 'mewc',
+    peerMagic: '54454c45',
+    pubKeyHash: Buffer.from('42', 'hex').readUInt8(0),
+    scriptHash: Buffer.from('7f', 'hex').readUInt8(0),
+    wif: Buffer.from('80', 'hex').readUInt8(0),
+    coin: 'tls',
   };
 
   // Testnet Configuration
@@ -30,11 +30,11 @@ const Transactions = function(config, rpcData) {
       public: Buffer.from('043587CF', 'hex').readUInt32LE(0),
       private: Buffer.from('04358394', 'hex').readUInt32LE(0),
     },
-    peerMagic: '6d657763',
-    pubKeyHash: Buffer.from('6D', 'hex').readUInt8(0),
-    scriptHash: Buffer.from('7C', 'hex').readUInt8(0),
-    wif: Buffer.from('72', 'hex').readUInt8(0),
-    coin: 'tmewc',
+    peerMagic: '52564E54',
+    pubKeyHash: Buffer.from('6F', 'hex').readUInt8(0),
+    scriptHash: Buffer.from('C4', 'hex').readUInt8(0),
+    wif: Buffer.from('EF', 'hex').readUInt8(0),
+    coin: 'ttls',
   };
 
   // Calculate Generation Transaction
@@ -59,7 +59,7 @@ const Transactions = function(config, rpcData) {
     // Calculate Coin Block Reward
     let reward = _this.rpcData.coinbasevalue;
 
-    let arbitraryData = utils.serializeString('/telestai-node-stratum/');
+    const arbitraryData = utils.serializeString('/telestai-node-stratum/');
 
     // Handle Pool/Coinbase Addr/Flags
     const poolAddressScript = utils.addressToScript(_this.config.primary.address, network);

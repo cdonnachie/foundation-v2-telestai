@@ -1,14 +1,14 @@
-# Foundation Stratum (Meowcoin, v2)
+# Foundation Stratum (Telestai, v2)
 
-[![Codecov Coverage](https://img.shields.io/codecov/c/github/blinkhash/foundation-v2-meowcoin.svg?style=flat-square)](https://codecov.io/gh/blinkhash/foundation-v2-meowcoin/)
-[![Foundation CI](https://github.com/blinkhash/foundation-v2-meowcoin/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/blinkhash/foundation-v2-meowcoin/actions/workflows/build.yml)
+[![Codecov Coverage](https://img.shields.io/codecov/c/github/cdonnachie/foundation-v2-telestai.svg?style=flat-square)](https://codecov.io/gh/cdonnachie/foundation-v2-telestai/)
+[![Foundation CI](https://github.com/cdonnachie/foundation-v2-telestai/actions/workflows/build.yml/badge.svg?branch=master)](https://github.com/cdonnachie/foundation-v2-telestai/actions/workflows/build.yml)
 [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
-[![Downloads](https://img.shields.io/npm/dm/foundation-v2-meowcoin.svg)](https://www.npmjs.com/package/foundation-v2-meowcoin)
-[![Version](https://img.shields.io/npm/v/foundation-v2-meowcoin.svg)](https://www.npmjs.com/package/foundation-v2-meowcoin)
-[![Known Vulnerabilities](https://snyk.io/test/npm/foundation-v2-meowcoin/badge.svg)](https://snyk.io/test/npm/foundation-v2-meowcoin)
+[![Downloads](https://img.shields.io/npm/dm/foundation-v2-telestai.svg)](https://www.npmjs.com/package/foundation-v2-telestai)
+[![Version](https://img.shields.io/npm/v/foundation-v2-telestai.svg)](https://www.npmjs.com/package/foundation-v2-telestai)
+[![Known Vulnerabilities](https://snyk.io/test/npm/foundation-v2-telestai/badge.svg)](https://snyk.io/test/npm/foundation-v2-telestai)
 [![Discord](https://img.shields.io/discord/738590795384356904)](https://discord.gg/rNjez6VgNF)
 
-This portal is a high performance stratum server written entirely in Node.js. This server itself was built to be efficient, transparent, and easy to setup, while still maintaining greater scalability than many of the other open-source stratum servers. While this module will allow you to connect and mine directly on the a coin's blockchain, it doesn't include support for an API, payment processor, or share handler. For a complete server that includes these features and allows you to integrate multiple of these modules, see [here](https://github.com/blinkhash/foundation-v2-server).
+This portal is a high performance stratum server written entirely in Node.js. This server itself was built to be efficient, transparent, and easy to setup, while still maintaining greater scalability than many of the other open-source stratum servers. While this module will allow you to connect and mine directly on the a coin's blockchain, it doesn't include support for an API, payment processor, or share handler. For a complete server that includes these features and allows you to integrate multiple of these modules, see [here](https://github.com/cdonnachie/foundation-v2-server).
 
 #### Need Support?
 

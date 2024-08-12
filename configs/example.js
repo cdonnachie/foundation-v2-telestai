@@ -1,6 +1,6 @@
 /*
  *
- * Example (Meowcoin)
+ * Example (Telestai)
  *
  */
 
