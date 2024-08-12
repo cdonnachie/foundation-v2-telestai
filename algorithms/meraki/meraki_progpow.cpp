@@ -2,10 +2,10 @@
 // Copyright 2018-2019 Pawel Bylica.
 // Licensed under the Apache License, Version 2.0.
 
-#include "../common/ethash/ethash/bit_manipulation.h"
-#include "../common/ethash/ethash/endianness.hpp"
-#include "../common/ethash/ethash/kiss99.hpp"
-#include "../common/ethash/include/keccak.hpp"
+#include "utils/ethash/bit_manipulation.h"
+#include "utils/ethash/endianness.hpp"
+#include "utils/ethash//kiss99.hpp"
+#include "utils/include/keccak.hpp"
 #include "meraki_internal.hpp"
 #include "meraki_progpow.hpp"
 

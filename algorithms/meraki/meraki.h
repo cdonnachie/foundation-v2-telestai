@@ -5,7 +5,7 @@
 
 #pragma once
 
-#include "../common/ethash/include/hash_types.h"
+#include "utils/include/hash_types.h"
 
 #include <stdbool.h>
 #include <stdint.h>

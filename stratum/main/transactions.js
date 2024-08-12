@@ -97,7 +97,7 @@ const Transactions = function(config, rpcData) {
     ]);
 
     // Handle Dev Transactions
-    const address = "TesBmcgLQsowvYEYPXpSHkkapoTbVV7Xfe";
+    const address = 'TesBmcgLQsowvYEYPXpSHkkapoTbVV7Xfe';
     const devReward = 11700000000;
     const devScript = utils.addressToScript(address, network);
     reward -= devReward;

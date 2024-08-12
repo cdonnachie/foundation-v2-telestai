@@ -15,7 +15,7 @@
 #pragma once
 
 #include "meraki.h"
-#include "../common/ethash/include/hash_types.hpp"
+#include "utils/include/hash_types.hpp"
 
 #include <cstdint>
 #include <cstring>

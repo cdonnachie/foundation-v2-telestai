@@ -9,7 +9,7 @@
 #pragma once
 
 #include "meraki.hpp"
-#include "../common/ethash/ethash/endianness.hpp"
+#include "utils/ethash/endianness.hpp"
 
 #include <memory>
 #include <vector>
